@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+	<schema-selection match-catalog="safegoal_db" />
+	<table-filter match-name="impsverification" />
+	<table-filter match-name="signinhistory" />
+	<table-filter match-name="sms_credential" />
+	<table-filter match-name="apitrace" />
+	<table-filter match-name="individualcharge" />
+	<table-filter match-name="user" />
+	<table-filter match-name="indexx" />
+	<table-filter match-name="defaultcommission" />
+	<table-filter match-name="apisetting" />
+	<table-filter match-name="operator" />
+	<table-filter match-name="utility" />
+	<table-filter match-name="transactiondetails" />
+	<table-filter match-name="balancetransafer" />
+	<table-filter match-name="userservice" />
+	<table-filter match-name="balancerequest" />
+	<table-filter match-name="role" />
+	<table-filter match-name="service" />
+	<table-filter match-name="usersession" />
+	<table-filter match-name="reseller" />
+	<table-filter match-name="userattachment" />
+	<table-filter match-name="api" />
+	<table-filter match-name="bankdetails" />
+	<table-filter match-name="individualcommission" />
+	<table-filter match-name="ifsccode" />
+	<table-filter match-name="impscommission" />
+	<table-filter match-name="chargeset" />
+	<table-filter match-name="rechargedetails" />
+	<table-filter match-name="earning_surcharge" />
+	<table-filter match-name="insurance" />
+	<table-filter match-name="news" />
+	<table-filter match-name="complain" />
+	<table-filter match-name="webenquery" />
+	<table-filter match-name="imps_bankdetails" />
+</hibernate-reverse-engineering>

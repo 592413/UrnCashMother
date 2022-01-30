@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/safegoal_db?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">safegoal_db</property>
+    <property name="hibernate.connection.password">2soU@#ZWMJ</property>
+    
+    <mapping class="com.recharge.model.Api"/>
+    <mapping class="com.recharge.model.Balancerequest"/>
+    <mapping class="com.recharge.model.Balancetransafer"/>
+    <mapping class="com.recharge.model.Chargeset"/>
+    <mapping class="com.recharge.model.Defaultcommission"/>
+    <mapping class="com.recharge.model.Individualcommission"/>
+    <mapping class="com.recharge.model.Operator"/>
+    <mapping class="com.recharge.model.Rechargedetails"/>
+    <mapping class="com.recharge.model.Role"/>
+    <mapping class="com.recharge.model.Service"/>
+    <mapping class="com.recharge.model.Transactiondetails"/>
+    <mapping class="com.recharge.model.Userservice"/>
+    <mapping class="com.recharge.model.Utility"/>
+    <mapping class="com.recharge.model.User"/>
+    <mapping class="com.recharge.model.Indexx"/>
+    <mapping class="com.recharge.model.Imps_BankDetails"/>
+    <mapping class="com.recharge.News"/>
+    <mapping class="com.recharge.Bankdetails"/>
+    <mapping class="com.recharge.Signinhistory"/>
+    <mapping class="com.recharge.Apitrace"/>
+    <mapping class="com.recharge.Apisetting"/>
+    <mapping class="com.recharge.SmsCredential"/>
+     <mapping class="com.recharge.webenquery"/>
+  </session-factory>
+</hibernate-configuration>
